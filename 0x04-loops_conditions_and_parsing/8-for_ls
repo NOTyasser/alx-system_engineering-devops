@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# TASK : Write a Bash script that displays:
+	# The content of the current directory
+	# In a list format
+	# Where only the part of the name after the first dash is displayed
+# EXPLANATION :
+	# There two types of constructs for conditional expressions.
+		# [] : Traditional test command, used for basic conditional checks
+		 		# such as -eq,-ne, -gt ...
+		# [[]] : extended conditional construct, offers more features and capabilities
+				# such as logical operations, reggular expressions (==, !=...)
+for file in *;do
+	if [[ -f "$file" && "$file" != .* ]];then
+		output=${file#*-}
+		echo "$output"
+	fi
+done
