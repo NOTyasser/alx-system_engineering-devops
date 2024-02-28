@@ -1,4 +1,4 @@
-c#!/usr/bin/env bash
+#!/usr/bin/env bash
 # Transfers a file from Holberton's client to another.
 # Accepts four arguments:
 #+    The path to the file to be transferred.
