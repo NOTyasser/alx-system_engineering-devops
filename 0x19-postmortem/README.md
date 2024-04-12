@@ -1,4 +1,4 @@
-# Postmortem
+### How to lose your traffic in 24 hours.
 
 #### Summary
 On 10/11/2023 at 11:23 AM GMT+1 an outrage was discovered, impacting the usual traffic coming toward our server. It impacted thousands of faithful clients, slowed the traffic down, and caused losses up to thousands of dollars. The users that regularly access and use our services were experiencing frustration, anger, and second thoughts about weather our services benefit them. The bottom of the problem comes from our servers not being able to serve clients their requests due to requests returning 500 status codes.
